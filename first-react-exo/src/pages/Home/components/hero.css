@@ -1,0 +1,157 @@
+.herosection {
+    /* background-color: rgba(161, 114, 103, 0.173); */
+    display: flex;
+    padding: 3% 5%;
+    gap: 3%;
+}
+
+.div1 {
+    /* background-color: white; */
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px gray;
+    transition: 0.35s ease-in-out;
+    line-height: 2rem;
+    color: white;
+}
+
+.div2 {
+    background-color: white;
+    /* margin: 2%; */
+    padding: 0.1%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px gray;
+    transition: 0.35s ease-in-out;
+    line-height: 2rem;
+    height: 200px;
+    width: 50%;
+    height: 300px;
+
+
+}
+.myname{
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 2px 1px 5px rgba(255, 255, 255, 0.552);
+}
+.full-dev{
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(156, 36, 36);
+}
+.heroPara{
+    width: 100%;
+    margin-top: 2%;
+    font-size: 13px;
+}
+.div1:hover {
+    transform: scale(1.01);
+}
+
+.div2:hover {
+    transform: scale(1.01);
+}
+
+.skillsSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 5%;
+    margin-top: 5%;
+    border-top: 1px solid gray;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin-top: 3%;
+}
+
+.card1 {
+    background-color: rgba(213, 122, 47, 0.205);
+    padding: 6% 10%;
+    border-radius: 10px;
+    color: chocolate;
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid orange;
+    box-shadow: 1px 1px 10px 1px rgba(255, 166, 0, 0.181);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.card1:hover{
+    transform: translateY(-10px);
+}
+.card2 {
+    background-color: rgba(30, 171, 210, 0.181);
+    padding: 6% 10%;
+    border-radius: 10px;
+    color: rgb(30, 171, 210);
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid rgb(30, 171, 210);
+    box-shadow: 1px 1px 10px 1px rgba(30, 171, 210, 0.181);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.card2:hover{
+    transform: translateY(-10px);
+}
+.card3 {
+    background-color: rgba(219, 219, 11, 0.205);
+    padding: 6% 10%;
+    border-radius: 10px;
+    color: rgb(219, 219, 11);
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid rgb(219, 219, 11);
+    box-shadow: 1px 1px 10px 1px rgba(219, 219, 11, 0.181);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.card3:hover{
+    transform: translateY(-10px);
+}   
+.card4 {
+    background-color: rgba(39, 39, 172, 0.205);
+    padding: 6% 10%;
+    border-radius: 10px;
+    color: blue;
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 10px 1px rgba(blue, 0.181);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.card4:hover{
+    transform: translateY(-10px);
+}
+.skills{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(79, 126, 183);
+  padding-bottom: 3%;
+  
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    margin-top: 10%;
+}
