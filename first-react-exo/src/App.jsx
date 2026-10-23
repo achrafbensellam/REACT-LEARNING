@@ -10,7 +10,7 @@ function App() {
     <Header />
     <main className='theMain'>
     <Routes>
-      <Route path='/' element={<Herosec />}/>
+      <Route path='/home' element={<Herosec />}/>
     </Routes>
     </main>
     <Footer />

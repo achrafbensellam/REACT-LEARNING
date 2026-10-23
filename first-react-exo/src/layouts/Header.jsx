@@ -7,7 +7,7 @@ function Header(){
             <nav className='navbar'>
                 <ul className='navList'>
                     <li className='listAtems' style={{listStyle:'none'}}><a style={{textDecoration:'none',color:'white'}} href="">home</a> </li>
-                <Link to='/'> Home</Link>
+                <Link to='/home'> Home</Link>
                 {/* <link to='/'>Home</link> */}
                     <li className='listAtems' style={{listStyle:'none'}}><a style={{textDecoration:'none',color:'white'}} href="">contact</a> </li>
                     
