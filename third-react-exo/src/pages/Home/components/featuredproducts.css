@@ -1,21 +1,123 @@
-.FeaturedProducts{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-padding: 4%;
+.FeaturedProducts {
+    padding: 6% 1%;
+    background-color: rgb(6, 6, 32);
+    color: white;
+
 }
-.HOMEfirstPRODUCTdiv{
-    background-image: url(../../../assets/img/homePhone.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
+.featuredProductsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5% ;
+    padding: 5% 0%;
 }
-.HOMEfirstPRODUCTdi2{
-    background-image: url(../../../assets/img/homepc.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
+.FeaturedProductsPara1{
+    color: rgb(166, 133, 86);
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, "Times New Roman", serif;
+  /* font-style: italic; */
+  /* font-weight: 400; */
+  letter-spacing: 10px;
+  padding: 2%0%;
 }
-.homeIcon{
+.FeaturedProductsPara2{
+    text-align: center;
+    margin-bottom: 3%;
+    color: gray;
+    font-weight: 800;
+    font-size: 25px;
+    word-spacing: 5px;
+    font-family: Dancing Script;
+}
+.divHomeIcon {
+    width: 35px;
+    height: 35px;
+    /* border-right: 1px solid rgb(172, 141, 94); */
+    margin-right: 4%;
+}
+
+.HOMEfirstPRODUCTdivIMAGE {
+    width: 50%;
+    padding: 10%0%;
+}
+
+.HOMEfirstPRODUCTchildDIV {
+    width: 50%;
+}
+
+.HOMEphoneIMG {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    animation: floatUpDown 4s ease-in-out infinite;
+    box-shadow: 1px 1px 10px 1px rgb(137, 93, 64);
+}
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.homeIcon {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.HOMEfirstPRODUCTdiv {
+    display: flex;
+    background-color: rgb(29, 35, 49);
+    color: white;
+    padding: 3%;
+    gap: 2%;
+    border-radius: 10px;
+    border:1px solid rgb(172, 141, 94);
+    transition: transform 0.7s ease-in-out;
+    box-shadow: 1px 1px 10px 1px rgb(172, 141, 94);
+}
+.HOMEfirstPRODUCTdiv:hover {
+    transform: translateY(-10px);
+}
+.HOMEiconDIV1{
+    display: flex;
+    margin-top: 2%;
+}
+.HOMEfirstPRODUCTchildDIVPara1{
+    color: rgb(172, 141, 94);
+    font-size: 25px;
+    font-weight: 600;
+}
+.HOMEfirstPRODUCTchildDIVPara3{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1rem;
+    padding: 2% 0%;
+        font-family: poppins;
+
+}
+.HOMEiconDIV1Para1{
+    color: rgb(172, 141, 94);
+    font-size: 13px;
+}
+.HOMEiconDIV1Para2{
+    font-size: 12px;
+}
+.FeaturedProductsBTN{
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 7px;
+    padding: 4% 3%;
+    border:  none;
+    background-image: linear-gradient(75deg,rgb(178, 137, 72)30%,rgb(249, 237, 175),rgb(178, 137, 72)80%);
+
 }

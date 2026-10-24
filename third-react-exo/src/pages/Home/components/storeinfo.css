@@ -1,0 +1,29 @@
+.STOREinfoSection{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background-image: url(../../../assets/img/storinfo.jpg);
+    background-position: right;
+    background-size: cover;
+}
+.STOREinfoSectionPARA3{
+    width: 55%;
+    line-height: 2rem;
+    color: white;
+}
+.STOREinfoSectionPARA1{
+    color: white;
+    letter-spacing: 3px;
+}
+.STOREinfoSectionPARA2{
+    margin: 1% 0% 5% 0%;
+    color: #b28948;
+    /* text-decoration: underline 2px rgb(178, 137, 72); */
+    font-size: 25px;
+    font-weight: 600;
+        font-family: Dancing Script;
+
+}
