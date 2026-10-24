@@ -10,7 +10,7 @@ function Header() {
                         <img className='logoPic' src={logo} alt="" />
                     </div>
                     <div className='headerTitle'>
-                        <h1 className='ahTechTITLE'><span className='ah'>AH.</span> <span className='tiriTECH'>TECH</span></h1>
+                        <h1 className='ahTechTITLE'><span className='ah'>BN.</span> <span className='tiriTECH'>TECH</span></h1>
                         <p className='ALHOCIEMA'>AL HOCEIMA</p>
                     </div>
                 </div>

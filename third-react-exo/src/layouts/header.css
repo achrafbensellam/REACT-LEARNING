@@ -12,8 +12,8 @@ border-bottom: #1e8bba32 solid 5px;
     height: 100%;
 }
 .imageDiv{
-    width: 100px ;
-    height: 55px;
+    width: 60px ;
+    height: 60px;
 }
 .divLogoContenair{
     display: flex;
@@ -34,7 +34,6 @@ border-bottom: #1e8bba32 solid 5px;
     font-weight: 900;
 }
 .ahTechTITLE{
-/* font-family: poppins; */
 background: linear-gradient(
     90deg,
     rgb(8, 59, 107),
@@ -64,23 +63,55 @@ background: linear-gradient(
     gap: 40px;
     justify-content: end;
     align-items: center;
-    width: 70%;
+    width: 60%;
 }
 .headerNavLinks{
     text-decoration: none;
-    color: rgb(125, 151, 155);
+    color: rgb(13, 8, 152);
     font-weight: 900;
     border-bottom: 3px rgb(115, 113, 230) solid;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    padding: 0.3% 1%;
+    border-radius: 3px;
 }
+.headerNavLinks::before{
+    content: '';
+    position: absolute;
+    bottom:0;
+    left: 0;
+    height: 5px;
+    width: 0%;
+    transition: 0.6s ease-in-out;
+    border-radius: 3px;
+
+}
+.headerNavLinks:hover::before{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(154, 164, 245);
+    z-index: -100;
+}
+
 .headerNavLinks:hover{
-   transform: scale();
+   transform: translateY(-7px);
 }
+
 .headerBTN{
     background-color: rgb(115, 113, 230);
     color: white;
     /* font-size: 40px; */
     font-weight: 800;
-    padding: 1% 6%;
+    padding: 1.5% 6%;
     border-radius: 7px;
-    border: 1px solid blue;
+    border: none;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 800;
+  box-shadow: 1px 1px 10px 1px rgb(132, 130, 161);
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+.headerBTN:hover{
+  transform: scale(1.02);
 }
