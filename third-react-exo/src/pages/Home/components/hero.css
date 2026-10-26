@@ -76,3 +76,85 @@
 .HeroSectionBTN:hover{
     transform: scale(1.01);
 }
+@media (min-width:320px) and (max-width:480px) {
+.HErosectoin{
+    background-image: url(../../../assets/img/heroPic.jpg);
+    height: fit-content;
+    display: flex;
+    /* align-items: center; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 4% 4%;
+}
+.BENSELLAMTECH{
+    display: flex;
+    align-items: center;
+    gap: 0.5%;
+}
+.BENSELLAMTECHpara1{
+    height: 3px;
+    width: 6%;
+    background-color: rgb(203, 172, 107);
+}
+.BENSELLAMTECHpara2{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.BENSELLAMTECHpara3{
+    color: rgb(203, 172, 107);
+}
+.BENSELLAMTECHpara4{
+    width: 100%;
+    font-size: 40px;
+    margin-top: 1%;
+    color:rgb(203, 172, 107) ;
+    text-shadow: 1px 1px 3px;
+}
+.Productivity1{
+    width: 100%;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  background: linear-gradient(
+    90deg,
+    rgb(72, 245, 249),
+    rgb(55, 36, 111),
+    rgb(230, 91, 211)
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.BENSELLAMTECHpara5{
+    width: 100%;
+    line-height: 1.2rem;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 2% 0%;
+    font-family:Poppins;
+}
+.HeroSectionBTN{
+    border: none;
+    padding: 1% 9%;
+    border-radius: 7px;
+    background-image: linear-gradient(75deg,rgb(178, 137, 72)30%,rgb(249, 237, 175),rgb(178, 137, 72)80%);
+    font-weight: 800;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 1px rgba(178, 137, 72, 0.34);
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 6%;
+
+}
+.HeroSectionBTN:hover{
+    transform: scale(1.01);
+}
+}
