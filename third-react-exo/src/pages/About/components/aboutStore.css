@@ -1,0 +1,54 @@
+.AboutStoreSection{
+    background-image: url(../../../assets/img/ordersectionPic.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 3% 10%;
+}
+.AboutStoreSectionPara1{
+    text-align: center;
+}
+.AboutStoreSectionPara2{
+    text-align: center;
+    font-size:50px;
+    padding: 2% 0%;
+    color: rgb(185, 142, 73);
+}
+.AboutStoreSectionPara3{
+    text-align: center;
+        font-family: Dancing Script;
+        font-size: 20px;
+        color: gray;
+        padding-bottom: 3%;
+
+}
+.AboutOurStory{
+    background-image: url(../../../assets/img/ourstory.jpg);
+    background-size: cover;
+    background-position: right;
+    padding:10%3%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px ;
+    width: 100%;
+}
+.AboutOurStoryPara1{
+    color: rgb(185, 142, 73);
+    padding-bottom: 2%;
+}
+.AboutOurStoryPara2{
+    width: 50%;
+    color: gray;
+    line-height: 1.5rem;
+}
+.AboutStoreFeatchers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5%;
+    gap: 3%;
+}
+.AboutStoreFeatchersDiv1{
+    box-shadow: 1px 1px 10px 1px;
+    padding: 3%;
+    line-height: 2rem;
+    border-radius: 7px;
+}
