@@ -160,6 +160,7 @@ position: relative;
 }
 .burger{
     font-size: 30px;
+    display: block;
 }
 .headerNavLinks2{
     text-decoration: none;

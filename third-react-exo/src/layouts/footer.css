@@ -96,7 +96,7 @@ padding-top: 2%;
     display: flex;
     flex-direction: column;
     /* grid-template-columns: 30% 20% 20% 23%; */
-    gap: 2%;
+    gap: 30px;
 /* padding-top: 3%; */
 padding: 3% 4%;
 }
@@ -183,8 +183,7 @@ padding-top: 2%;
 .firstContenairFooter{
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: 30% 20%; */
-    gap: 2%;
+    gap: 20px;
 /* padding-top: 3%; */
 padding: 3% 4%;
 }
