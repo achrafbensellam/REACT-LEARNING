@@ -29,7 +29,7 @@ function MYproducts() {
             </section>
             <section className='Productsection2'>
                 <h1 className='Productsection2Para1'>SHOP <span className='Productsection2Para2'>NOW <span className='Productsection2Para3'>:</span></span></h1>
-                <div>
+                <div className='PRODUCTINPUTS'>
                     <input className='Productsection2input' placeholder='Choose by name' type="text" />
                     <select className='Productsection2Select' name="" id="">
                         <option value="">choose now</option>

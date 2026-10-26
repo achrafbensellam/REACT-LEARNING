@@ -78,3 +78,94 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding: 5% 0%;
 }
+@media (min-width:320px) and (max-width:480px) {
+    .ProductsSection1{
+    /* background-image: url(../../../assets/img/pic2.jpg); */
+    /* background-position: center;
+    background-size: cover; */
+    background-color: rgb(3, 7, 18);
+    color: white;
+    padding: 4% 4%;
+}
+.ProductsSectionPara1{
+    font-size: 30px;
+    padding: 1% 0%
+    3%;
+    width: 100%;
+}
+.ProductsSectionPara2{
+    color: rgb(178, 138, 72);
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.ProductsSectionPara3{
+    width: 100%;
+    font-weight: 700;
+    font-size: 17px;
+        font-family: Dancing Script;
+
+    /* color: gray; */
+}
+.Productsection2{
+    padding: 4%;
+    background-color: rgb(3, 7, 18);
+    color: white;
+    border-top: 1px solid rgba(128, 128, 128, 0.363);
+}
+.Productsection2Select{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(6, 14, 34);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    color: white;
+    padding-left: 2%;
+
+}
+.Productsection2input{
+    width: 100%;
+    margin-right: 5%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(6, 14, 34);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    color: white;
+    padding-left: 2%;
+}
+.Productsection2Para1{
+    font-size: 25px;
+    margin-bottom: 2%;
+
+    border-bottom: 4px solid rebeccapurple;
+    width: fit-content;
+}
+.Productsection2Para2{
+        font-family: Dancing Script;
+        /* font-family: Georgia, "Times New Roman", serif; */
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(178, 138, 72);
+}
+.Productsection2Para3{
+    color: rebeccapurple;
+    font-weight: 900;
+}
+.Productsection2CardsDiv{
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 1fr;
+    padding: 5% 0%;
+    margin-top: 10%;
+    margin-bottom: 60%;
+}
+.PRODUCTINPUTS{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 3%;
+}
+}
