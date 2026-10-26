@@ -1,0 +1,121 @@
+.ProductCardIMAGE{
+    width: 100%;
+    height: 100%;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+    border-radius: 5px;
+}
+
+.ProductCardIMAGEfotherDIV{
+    position: relative;
+    background-color: rgb(23, 11, 45);
+    padding: 4% 4%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.ProductIMGinfo{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    background-color: rgb(5, 130, 34);
+    display: flex;
+    align-items: center;
+    width: 140px;
+    gap: 5%;
+    padding: 0.5%2%;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.colorRED{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    background-color: rgb(246, 5, 5);
+    display: flex;
+    align-items: center;
+    width: 140px;
+    gap: 5%;
+    padding: 0.5%2%;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.categoryPOINT{
+    padding: 3.5%;
+    background-color: rgb(230, 211, 41);
+    border-radius: 50px;
+    box-shadow: 3px 3px 20px 3px rgb(13, 87, 1);
+}
+.ProductIMGinfo2{
+    position: absolute;
+    bottom: 4px;
+    right: 2px;
+    font-size: 13px;
+}
+.ProductIMGinfo3{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5% 3%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.CONtenaireCARD{
+    border: 1px solid rgb(178, 138, 72);
+    border-radius: 7px;
+    background-color: rgb(6, 14, 34);
+    transition: transform 0.3s ease-in-out;
+}
+.CONtenaireCARD:hover{
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px 1px rgb(178, 138, 72);
+}
+.productCardPricBTNdiv{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(128, 128, 128, 0.329);
+    padding: 3% 0%;
+}
+.productCardINformations{
+    padding: 3%5%;
+    line-height: 1.5rem;
+}
+.productCardINforPARA1{
+color: gray;
+font-size: 13px;
+font-weight: 600;
+}
+.productCardINforPARA2{
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 500;
+  margin: 2% 0% 6%;
+  line-height: 1.9rem;
+}
+.productCardINforPARA3{
+    color: gray;
+        font-family: Dancing Script;
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 6%;
+}
+.productCardPricBTNdivPARA1{
+    color: rgb(252, 211, 77);
+}
+.productCardBTN{
+    background-color: rgb(252, 211, 77);
+    color: rgb(2, 2, 43);
+    font-weight: 800;
+    padding: 0% 6%;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    cursor: pointer;
+}
+.productCardBTN:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 10px 1px rgba(252, 211, 77, 0.378);
+}

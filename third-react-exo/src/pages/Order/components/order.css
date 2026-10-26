@@ -1,0 +1,165 @@
+.orderSection {
+    background-image: url(../../../assets/img/ordersectionPic.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 6% 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderSectionPara1 {
+    text-align: center;
+    color: rgb(178, 138, 72);
+    letter-spacing: 2rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.orderSectionPara2 {
+    text-align: center;
+    padding: 2%;
+    color: gray;
+    font-family: Dancing Script;
+    font-size: 20px;
+}
+
+.OrderForm {
+    background-color: rgb(29, 35, 49);
+    width: 50%;
+    padding: 3% 1%;
+    border-radius: 12px;
+}
+
+.OrderFormINPUT {
+    width: 100%;
+    height: 40PX;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: rgb(6, 14, 34);
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 10px 1px rgba(92, 90, 90, 0.352);
+}
+
+.OrderFormTitles {
+    color: gray;
+    font-weight: 700;
+    /* !!!!! */
+    padding: 4% 0%;
+}
+
+.ProductSelectionIMAGE {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.ProductSelectionIMAGE-info-DIV {
+    width: 100%;
+}
+
+.ProductSelectionDIV-Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+}
+
+.ProductSelectionDIV {
+    width: 50%;
+    background-color: rgb(29, 35, 49);
+    margin-top: 2%;
+    border-radius: 12px;
+    padding: 1%;
+}
+
+.ProductSelectionDIVpara1 {
+    color: gray;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.ProductSelectionIMAGE-div {
+    width: 100%;
+}
+
+.ProductSelectionDIV-Card1 {
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.499);
+    padding: 3%;
+    background-color: rgb(0, 16, 40);
+    border-radius: 7px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.ProductSelectionDIV-Card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px 1px rgba(178, 137, 72, 0.604);
+
+}
+
+.ProductSelectioninfo-DIV {
+    display: flex;
+}
+
+.ProductSelectioninfo-counters {
+    display: flex;
+    justify-content: end;
+    width: 70%;
+    gap: 7%;
+}
+
+.ordercounter1 {
+    background-color: rgb(53, 57, 70);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.orderNAME-PRICE {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7%1%;
+}
+
+.orderNAME {
+    /* font-family: Dancing Script; */
+    /* font-weight: 700; */
+    font-size: 20px;
+    color: rgb(178, 138, 72);
+}
+
+.orderPRICE {
+
+    color: rgb(252, 211, 77);
+}
+
+.orderQuantity {
+    color: gray;
+    font-family: Dancing Script;
+    font-size: 20px;
+}
+
+.OrderFormBTN {
+    width: 100%;
+    padding: 1% 0%;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(182, 141, 72);
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: Dancing Script;
+
+}
+.OrderFormBTN:hover {
+    box-shadow: 1px 1px 10px 1px rgba(239, 179, 0, 0.518);
+
+}
