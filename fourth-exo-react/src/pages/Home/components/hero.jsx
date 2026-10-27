@@ -52,7 +52,9 @@ function Herosection() {
         }
         setQuantity([...quantity, { name: productinput, price: productPrice, quantity: 0 }])
         setHowManyPRO(howManyPRO + 1)
-        console.log(quantity.length);
+
+        getproductinput('');
+        getproductPrice('');
     }
     let removeItem = (name) => {
         setQuantity(quantity.filter((e) => e.name !== name))
