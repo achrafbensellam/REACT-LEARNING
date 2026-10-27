@@ -1,0 +1,220 @@
+.cardPicture{
+    width: 100%;
+    height: 100%;
+    
+    /* margin: 0% 4%; */
+}
+.CardInfoContenainr{
+    box-shadow: 1px 1px 10px 1px rgb(66, 65, 65);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.CardInfoContenainr:hover{
+    transform: translateY(-10px);
+}
+.productDivInfo{
+    padding: 2% 4%;
+}
+.productName{
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 2% 0%;
+  background: linear-gradient(
+    90deg,
+    rgb(75, 59, 10),
+    rgb(138, 110, 26),
+    rgb(249, 193, 25)
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.productCategory{
+    color: gray;
+    font-size: 15px;
+}
+.productPriceDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding-bottom: 3%;
+}
+.productPicDIv{
+    padding: 0% 4%;
+    background-color: rgb(45, 45, 45);
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.number{
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    font-size: 10px;
+}
+.ProductKEPPwarm{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    background-color: rgb(105, 6, 6);
+    color: rgb(223, 221, 216) ;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  padding: 0.5% 2%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  font-weight: 600;
+}
+.KEPPwarm{
+    width: 100%;
+
+}
+.ProductKEPPwarmPOINT{
+    padding: 4%;
+    border-radius: 50px;
+    /* height: 100px; */
+    box-shadow: 1px 1px 10px 1px;
+    background-color: rgb(252, 192, 40);
+    margin-right: 6%;
+}
+.cardLOREM{
+    color: rgb(92, 92, 92);
+    font-size: 13px;
+    width: 80%;
+}
+.MAD{
+    font-size: 13px;
+}
+.productCardBTN{
+    box-shadow: 1px 1px 10px 1px rgb(38, 38, 38);
+    border:1px rgb(77, 77, 77) solid;
+    padding: 0% 2%;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #ec4899,
+    #f97316
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@media (min-width:481px) and (max-width:768px) {
+    .cardPicture{
+    width: 100%;
+    height: 100%;
+    
+    /* margin: 0% 4%; */
+}
+.CardInfoContenainr{
+    box-shadow: 1px 1px 10px 1px rgb(66, 65, 65);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.CardInfoContenainr:hover{
+    transform: translateY(-10px);
+}
+.productDivInfo{
+    padding: 2% 4%;
+}
+.productName{
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 2% 0%;
+  background: linear-gradient(
+    90deg,
+    rgb(75, 59, 10),
+    rgb(138, 110, 26),
+    rgb(249, 193, 25)
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.productCategory{
+    color: gray;
+    font-size: 15px;
+}
+.productPriceDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding-bottom: 3%;
+}
+.productPicDIv{
+    padding: 0% 4%;
+    background-color: rgb(45, 45, 45);
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.number{
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+    font-size: 10px;
+}
+.ProductKEPPwarm{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    background-color: rgb(105, 6, 6);
+    color: rgb(223, 221, 216) ;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  padding: 0.5% 2%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  font-weight: 600;
+}
+.KEPPwarm{
+    width: 100%;
+    font-size: 12px;
+}
+.ProductKEPPwarmPOINT{
+    padding: 4%;
+    border-radius: 50px;
+    /* height: 100px; */
+    box-shadow: 1px 1px 10px 1px;
+    background-color: rgb(252, 192, 40);
+    margin-right: 6%;
+}
+.cardLOREM{
+    color: rgb(92, 92, 92);
+    font-size: 13px;
+    width: 80%;
+}
+.MAD{
+    font-size: 13px;
+}
+.productCardBTN{
+    box-shadow: 1px 1px 10px 1px rgb(38, 38, 38);
+    border:1px rgb(77, 77, 77) solid;
+    padding: 0% 2%;
+    border-radius: 4px;
+    cursor: pointer;
+    background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #ec4899,
+    #f97316
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+}

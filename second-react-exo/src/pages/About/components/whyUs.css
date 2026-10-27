@@ -1,0 +1,244 @@
+.flameIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.cardsIconDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+    gap: 5%;
+}
+
+.WhyUsSection {
+    background-color: black;
+    color: white;
+    padding: 10% 4%;
+}
+
+.WHYCHOOSEUS {
+    color: rgb(209, 150, 60);
+    text-decoration: underline 3px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.WhyUsPARA1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 700;
+    margin: 2% 0%;
+}
+
+.WhyUsPARA2 {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cardsIconDiv1 {
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgb(209, 150, 60);
+    border: 1px solid yellow;
+    border-radius: 12px;
+    padding: 8% 4%;
+    font-size: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+.cardsIconDiv1:hover{
+    transform: translateY(-15px);
+}
+.WhyUsPARA3{
+    color: gray;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25px;
+}
+.WhyUsPARA4{
+    margin: 2% 0%;
+    background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #ec4899,
+    #f97316
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+.snowSECTION{
+    background-image: url(../../../assets/img/snow.jpg);
+    background-size: cover;
+    /* height: 100px; */
+    color: white;
+}
+@media (min-width:320px) and (max-width:480px) {
+    .flameIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.cardsIconDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10%;
+    gap: 5%;
+    margin: 20% 0% 70% 0%;
+}
+
+.WhyUsSection {
+    background-color: black;
+    color: white;
+    padding: 10% 4%;
+}
+
+.WHYCHOOSEUS {
+    color: rgb(209, 150, 60);
+    text-decoration: underline 3px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.WhyUsPARA1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 700;
+    margin: 2% 0%;
+}
+
+.WhyUsPARA2 {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cardsIconDiv1 {
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgb(209, 150, 60);
+    border: 1px solid yellow;
+    border-radius: 12px;
+    padding: 8% 4%;
+    font-size: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+.cardsIconDiv1:hover{
+    transform: translateY(-15px);
+}
+.WhyUsPARA3{
+    color: gray;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25px;
+}
+.WhyUsPARA4{
+    margin: 2% 0%;
+    background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #ec4899,
+    #f97316
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+.snowSECTION{
+    background-image: url(../../../assets/img/snow.jpg);
+    background-size: cover;
+    /* height: 100px; */
+    color: white;
+}
+}
+/* !!!!!! */
+@media (min-width:481px) and (max-width:768px) {
+    .flameIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.cardsIconDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    gap: 5%;
+}
+
+.WhyUsSection {
+    background-color: black;
+    color: white;
+    padding: 10% 4%;
+}
+
+.WHYCHOOSEUS {
+    color: rgb(209, 150, 60);
+    text-decoration: underline 3px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.WhyUsPARA1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 700;
+    margin: 2% 0%;
+}
+
+.WhyUsPARA2 {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cardsIconDiv1 {
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgb(209, 150, 60);
+    border: 1px solid yellow;
+    border-radius: 12px;
+    padding: 8% 4%;
+    font-size: 30px;
+    transition: transform 0.5s ease-in-out;
+}
+.cardsIconDiv1:hover{
+    transform: translateY(-15px);
+}
+.WhyUsPARA3{
+    color: gray;
+    font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25px;
+}
+.WhyUsPARA4{
+    margin: 2% 0%;
+    background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #ec4899,
+    #f97316
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+.snowSECTION{
+    background-image: url(../../../assets/img/snow.jpg);
+    background-size: cover;
+    /* height: 100px; */
+    color: white;
+}
+}

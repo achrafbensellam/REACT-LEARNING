@@ -1,0 +1,183 @@
+.theFooter{
+    background-image: linear-gradient(50deg,black 20%,rgb(209, 150, 60),black 80% );
+    border-top:1px solid rgba(128, 128, 128, 0.384);
+    padding: 2% 4%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.MediaIcons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 5%;
+}
+.divFooterPages{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+.FooterLogoDiv{
+    width: 30%;
+}
+.joinUsDiv{
+    width: 30%;
+    padding: 0% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.FooterPage1{
+    line-height: 2rem;
+}
+.CopyRight{
+    color: gray;
+    padding: 2.5%;
+}
+.US{
+    color: rgb(129, 97, 1);
+    text-shadow: 1px 1px 10px;
+}
+.joinUS{
+    text-shadow: 5px 5px 10px black;
+}
+.footerIcon{
+    font-size: 25px;
+    padding: 10% 2%;
+    cursor: pointer;
+
+}
+.footerIcon:hover{
+    background-color: white;
+    border-radius: 3px;
+    color: rgb(209, 150, 60);
+}
+@media (min-width:320px) and (max-width:480px) {
+    .theFooter{
+    background-image: linear-gradient(180deg,black 20%,rgb(209, 150, 60),black 80% );
+    border-top:1px solid rgba(128, 128, 128, 0.384);
+    padding: 2% 4%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.FOOTERheadlines{
+    color: rgb(209, 150, 60);
+    text-decoration: underline 2px black;
+    margin-top: 3%;
+}
+.MediaIcons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+    margin-top: 10%;
+}
+.divFooterPages{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    margin: 3% 0%;
+}
+.FooterLogoDiv{
+    width: 100%;
+}
+.joinUsDiv{
+    width: 100%;
+    padding: 10% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.FooterPage1{
+    line-height: 2rem;
+}
+.CopyRight{
+    color: gray;
+    padding: 2.5%;
+}
+.US{
+    color: rgb(129, 97, 1);
+    text-shadow: 1px 1px 10px;
+}
+.joinUS{
+    text-shadow: 5px 5px 10px black;
+}
+.footerIcon{
+    font-size: 25px;
+    padding: 10% 2%;
+    cursor: pointer;
+
+}
+.footerIcon:hover{
+    background-color: white;
+    border-radius: 3px;
+    color: rgb(209, 150, 60);
+}
+}
+@media (min-width:481px) and (max-width:768px) {
+    .theFooter{
+    background-image: linear-gradient(180deg,black 20%,rgb(209, 150, 60),black 80% );
+    border-top:1px solid rgba(128, 128, 128, 0.384);
+    padding: 2% 4%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.MediaIcons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30%;
+    margin-top: 10%;
+}
+.divFooterPages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 3% 0%;
+}
+.FooterLogoDiv{
+    width: 100%;
+}
+.joinUsDiv{
+    width: 100%;
+    padding: 7% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.FooterPage1{
+    line-height: 2rem;
+}
+.CopyRight{
+    color: gray;
+    padding: 2.5%;
+}
+.US{
+    color: rgb(129, 97, 1);
+    text-shadow: 1px 1px 10px;
+}
+.joinUS{
+    text-shadow: 5px 5px 10px black;
+}
+.footerIcon{
+    font-size: 25px;
+    padding: 10% 2%;
+    cursor: pointer;
+
+}
+.footerIcon:hover{
+    background-color: white;
+    border-radius: 3px;
+    color: rgb(209, 150, 60);
+}
+}
