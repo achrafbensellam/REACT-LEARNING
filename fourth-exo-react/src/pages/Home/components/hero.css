@@ -23,6 +23,10 @@ padding: 2% 10%;
 .contersDiv{
     display: flex;
     justify-content: space-between;
+    box-shadow: 1px 1px 10px 1px rgb(194, 189, 189);
+    padding: 2% 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
 }
 .productSection{
     padding: 4% 10%;
@@ -67,4 +71,97 @@ gap: 3%;
     border-radius: 5px;
     padding: 2%4%;
     color: rgb(37, 37, 156);
+}
+.contersDivpara1{
+    color: gray;
+    margin-bottom: 6%;
+}
+.contersDivpara2{
+   text-align: center;
+}
+.productsCARDSpara2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%0%5%;
+}
+.productsCARDSpara1{
+    color: purple;
+}
+.productsCARDSpara3{
+    color: gray;
+    font-size: 15px;
+}
+.productsCARDSpara4{
+    color: rgb(156, 102, 156);
+    font-weight: 800;
+    border: 1px solid plum;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    background-color: rgba(221, 160, 221, 0.212);
+}
+.card1Para1{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 1%;
+}
+.formSection{
+    margin: 2% 10%;
+    display: flex;
+    background-color: rgb(38, 36, 64);
+    padding: 1%;
+    border-radius: 10px;
+}
+.formsectiondiv1{
+color: white;
+width: 50%;
+}
+.formsectiondivForm{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+    width: 50%;
+}
+.formTitles{
+    color: gray;
+}
+.formInputs{
+    width: 100%;
+    height: 50px;
+    padding: 3%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgb(197, 192, 192);
+}
+.FORMaddProduct{
+    margin-bottom: 6%;
+    border-bottom: 4px solid purple;
+    width: fit-content;
+}
+.formsectiondiv1{
+    padding: 4%0%;
+}
+.formsectiondiv1para1{
+    color: rgb(190, 133, 190);
+}
+.formsectiondiv1para2{
+    font-size: 40px;
+    padding: 2% 0%;
+}
+.formsectiondiv1para3{
+    width: 65%;
+    line-height: 2rem;
+    color: rgb(195, 186, 186);
+}
+.formBtn{
+    color: white;
+    background-color: blue;
+    width: 100%;
+    padding: 2%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.formBtn:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 255, 0.46);
 }
