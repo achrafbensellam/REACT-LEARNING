@@ -1,0 +1,49 @@
+.Card1{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(128, 128, 128, 0.338);
+    padding: 2% 0%;
+}
+.AgeANDcity{
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
+.editBTN{
+background-color: rgba(49, 115, 154, 0.329);
+font-weight: 800;
+padding: 0% 10%;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: blue;
+width: 50%;
+box-shadow: 1px 1px 10px 1px rgba(0, 0, 255, 0.318);
+}
+.deleteBTN{
+background-color: rgba(198, 23, 102, 0.329);
+font-weight: 800;
+padding: 0% 10%;
+width: 50%;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: red;
+box-shadow: 1px 1px 10px 1px rgba(255, 0, 0, 0.288) ;
+
+}
+.CardBtns{
+    display: flex;
+    gap: 10px;
+    width: 30%;
+
+}
+.StudentName{
+    color: rgb(35, 87, 150);
+    font-weight: 800;
+    margin-bottom: 6%;
+}
+.Age-City-Span{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.651);
+}
