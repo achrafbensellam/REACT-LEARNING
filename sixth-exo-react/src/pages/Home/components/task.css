@@ -3,23 +3,343 @@
     justify-content: space-between;
     padding: 4%;
     position: relative;
+    margin-top: 2%;
 }
 .taskCardDiv1{
     width: 40%;
+    display: flex;
+    gap: 4%;
+    align-items: center;
+}
+.CHeckBox{
+    width: 20px;
+    height: 20px;
+}
+.TAskpara1{
+    font-weight: 800;
+    color: rgb(49, 30, 107);
+    margin-bottom: 4%;
 }
 .cardPriorityDIV{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 .TASKform{
     position: absolute;
     top: 0;
     left: 0;
-    display: block;
+    display: none;
+    padding: 4%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 231, 240);
+    border-radius: 10px;
+    gap: 2%;
 }
-/* .TASKform2{
+.TASKform:hover{
+    border: 2px solid rgba(0, 0, 255, 0.338);
+}
+.TASKform2{
     position: absolute;
     top: 0;
     left: 0;
     display: block;
-} */
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 231, 240);
+    border-radius: 10px;
+    gap: 2%;
+}
+.TASKform2:hover{
+    border: 2px solid rgba(0, 0, 255, 0.338);
+}
+
+ .TASKformInput1{
+    width: 60%;
+ }
+ .TASKformInput2{
+    width: 40%;
+    display: flex;
+    gap: 1%;
+ }
+ .TASKformInput11{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 3%;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.416);
+ }
+ .TASKformInput12{
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 3%;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.416);
+ }
+ .taskFormBTN{
+    width: 25%;
+    border: 1px solid rgba(0, 0, 255, 0.192);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.221);
+    font-weight: 700;
+ }
+ .taskFormBTN:hover{
+    box-shadow: 1px 1px 10px 1px rgba(142, 14, 14, 0.532);
+ }
+ .taskFormBTN2{
+    width: 25%;
+    border: 1px solid rgba(0, 0, 255, 0.192);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(26, 11, 233, 0.221);
+    font-weight: 700;
+ }
+ .taskFormBTN2:hover{
+    box-shadow: 1px 1px 10px 1px rgba(26, 32, 191, 0.532);
+ }
+ .Prioriyty{
+    background-color: rgba(255, 0, 0, 0.126);
+    padding: 1.5% 3%;
+    border-radius: 4px;
+    color: rgb(94, 1, 1);
+    font-weight: 600;
+ }
+ .Prioriyty2{
+    background-color: rgba(220, 174, 22, 0.126);
+    padding: 1.5% 3%;
+    border-radius: 4px;
+    color: rgb(151, 101, 9);
+    font-weight: 600;
+ }
+ .Prioriyty3{
+    background-color: rgba(10, 211, 23, 0.126);
+    padding: 1.5% 3%;
+    border-radius: 4px;
+    color: rgb(6, 95, 6);
+    font-weight: 600;
+ }
+ .STatu{
+    background-color: rgba(13, 8, 8, 0.101);
+    padding: 1.5% 3%;
+    border-radius: 4px;
+    color: gray;
+    font-weight: 600;
+ }
+ .EDITdeletBTNS{
+    width: 50%;
+    height: 35px;
+    cursor: pointer;
+    color: red;
+    font-weight: 700;
+    background-color: rgba(255, 0, 0, 0.186);
+    border: none;
+    border-radius: 7px;
+ }
+ .EDITdeletBTNS:hover{
+    border: 1px red solid;
+    box-shadow: 1px 1px 10px 1px rgba(255, 0, 0, 0.21);
+ }
+ .EDITdeletBTNS2{
+    width: 50%;
+    height: 35px;
+    cursor: pointer;
+    color: rgb(9, 9, 126);
+    font-weight: 700;
+    background-color: rgba(29, 41, 168, 0.186);
+    border: none;
+    border-radius: 7px;
+ }
+ .EDITdeletBTNS2:hover{
+    border: 1px rgb(13, 30, 158) solid;
+    box-shadow: 1px 1px 10px 1px rgba(16, 10, 181, 0.21);
+ }
+ .EDITdeletBTNSDiv{
+    display: flex;
+    gap: 4%;
+    width: 20%;
+ }
+ @media (min-width:320px) and (max-width:480px) {
+   .taskCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    position: relative;
+    margin-top: 2%;
+}
+.taskCardDiv1{
+    width: 100%;
+    display: flex;
+    gap: 4%;
+    align-items: center;
+    margin-bottom:  5%;
+}
+.CHeckBox{
+    width: 20px;
+    height: 20px;
+}
+.TAskpara1{
+    font-weight: 800;
+    color: rgb(49, 30, 107);
+    margin-bottom: 4%;
+}
+.cardPriorityDIV{
+    display: flex;
+    gap: 15px;
+}
+.TASKform{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 4%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 231, 240);
+    border-radius: 10px;
+    gap: 2%;
+}
+.TASKform:hover{
+    border: 2px solid rgba(0, 0, 255, 0.338);
+}
+.TASKform2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 4%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 231, 240);
+    border-radius: 10px;
+    gap: 2%;
+}
+.TASKform2:hover{
+    border: 2px solid rgba(0, 0, 255, 0.338);
+}
+
+ .TASKformInput1{
+    width: 100%;
+ }
+ .TASKformInput2{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+ }
+ .TASKformInput11{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 3%;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.416);
+ }
+ .TASKformInput12{
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 3%;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.416);
+ }
+ .taskFormBTN{
+    width: 25%;
+    border: 1px solid rgba(0, 0, 255, 0.192);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.221);
+    font-weight: 700;
+ }
+ .taskFormBTN:hover{
+    box-shadow: 1px 1px 10px 1px rgba(142, 14, 14, 0.532);
+ }
+ .taskFormBTN2{
+    width: 25%;
+    border: 1px solid rgba(0, 0, 255, 0.192);
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(26, 11, 233, 0.221);
+    font-weight: 700;
+ }
+ .taskFormBTN2:hover{
+    box-shadow: 1px 1px 10px 1px rgba(26, 32, 191, 0.532);
+ }
+ .Prioriyty{
+    background-color: rgba(255, 0, 0, 0.126);
+    padding: 1.5% 3%;
+    border-radius: 4px;
+    color: rgb(94, 1, 1);
+    font-weight: 600;
+ }
+ .Prioriyty2{
+    background-color: rgba(220, 174, 22, 0.126);
+    padding: 1.5% 3%;
+    border-radius: 4px;
+    color: rgb(151, 101, 9);
+    font-weight: 600;
+ }
+ .Prioriyty3{
+    background-color: rgba(10, 211, 23, 0.126);
+    padding: 1.5% 3%;
+    border-radius: 4px;
+    color: rgb(6, 95, 6);
+    font-weight: 600;
+ }
+ .STatu{
+    background-color: rgba(13, 8, 8, 0.101);
+    padding: 1.5% 3%;
+    border-radius: 4px;
+    color: gray;
+    font-weight: 600;
+ }
+ .EDITdeletBTNS{
+    width: 50%;
+    height: 35px;
+    cursor: pointer;
+    color: red;
+    font-weight: 700;
+    background-color: rgba(255, 0, 0, 0.186);
+    border: none;
+    border-radius: 7px;
+ }
+ .EDITdeletBTNS:hover{
+    border: 1px red solid;
+    box-shadow: 1px 1px 10px 1px rgba(255, 0, 0, 0.21);
+ }
+ .EDITdeletBTNS2{
+    width: 50%;
+    height: 35px;
+    cursor: pointer;
+    color: rgb(9, 9, 126);
+    font-weight: 700;
+    background-color: rgba(29, 41, 168, 0.186);
+    border: none;
+    border-radius: 7px;
+ }
+ .EDITdeletBTNS2:hover{
+    border: 1px rgb(13, 30, 158) solid;
+    box-shadow: 1px 1px 10px 1px rgba(16, 10, 181, 0.21);
+ }
+ .EDITdeletBTNSDiv{
+    display: flex;
+    gap: 4%;
+    width: 100%;
+ }
+ }

@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import './header.css'
 function HeaderPage() {
     return(
         <>
-        <header>
-            <h1>StudyPlanner</h1>
-            <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/About'>About</Link>
+        <header className="theHeader">
+            <h1 className="HeaderTitle">StudyPlanner</h1>
+            <nav className="navBarLINKS">
+                <Link className="links" to='/'>Home</Link>
+                <Link className="links" to='/About'>About</Link>
             </nav>
         </header>
         </>

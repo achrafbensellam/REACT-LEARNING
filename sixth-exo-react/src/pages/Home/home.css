@@ -1,39 +1,571 @@
-.Section1{
+.Section1 {
     padding: 4%15%;
 }
-.Section1Para1{
-    
+
+.Section1Para1 {
+    color: blue;
+    font-weight: 600;
+    font-family: poppins;
+    font-style: italic;
 }
-.Section1Counters{
+
+.Section1Counters {
     display: flex;
     justify-content: space-between;
+    margin: 2% 0%;
 }
-.counter1{
+
+.counter1 {
     display: flex;
     justify-content: space-between;
     width: 29%;
     padding: 4%0%;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.481);
+    padding: 3%;
+    border-radius: 10px;
+    color: gray;
+    background-color: white;
 }
-.Section2{
-padding: 2% 15%;
+
+.counterNUM {
+    color: rgb(17, 53, 120);
+    font-weight: 600;
+    font-size: 25px;
+
 }
-.Section3{
-padding: 2% 15%;
+
+.Section2 {
+    margin: 2% 15%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.481);
 }
-.FIlterBy{
+
+.Section3 {
+    margin: 2% 15%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+.Section1Para2 {
+    font-family: Dancing Script;
+    font-weight: 900;
+    font-size: 70px;
+    margin: 2% 0%;
+}
+
+.Section1Para3 {
+    color: gray;
+}
+
+#root {
+    background-color: rgb(235, 241, 244);
+}
+
+.Section2Para1 {
+    font-weight: 800;
+
+    margin-bottom: 1%;
+    font-size: 30px;
+    color: purple;
+    font-family: Dancing Script;
+}
+
+.Section2Para2 {
+    color: gray;
+    margin-bottom: 3%;
+}
+
+.LabelTitle {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.LabelTitle2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    width: 30%;
+    gap: 2%;
+}
+
+.form {
+    display: flex;
+    gap: 2%;
+}
+
+.sectionFormInputs {
+    height: 50px;
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.481);
+    margin-top: 1%;
+}
+
+.PriorityLabel {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.SectionFormBTN {
+    width: 50%;
+    color: rgb(10, 17, 100);
+    background-color: rgba(37, 125, 207, 0.527);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 15px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, 0.293);
+    
+}
+
+.SectionFormBTN:hover {
+    box-shadow: 1px 1px 10px 1px rgba(35, 109, 179, 0.481);
+}
+
+.Section3Para1 {
+    font-size: 30px;
+    color: purple;
+    font-weight: 800;
+    font-family: Dancing Script;
+    margin-bottom: 1%;
+    
+}
+
+.Section3Para2 {
+    color: gray;
+    margin-bottom: 3%;
+}
+
+.filteringDiv {
     display: flex;
     justify-content: space-between;
 }
-.section4{
-    padding: 3% 15%;
+
+.FIlterBy {
+    display: flex;
+    justify-content: end;
+    gap: 10%;
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.367);
+    align-items: center;
+    padding: 0%3%;
+    border-radius: 10px;
+    
 }
-.section4Para1{
-display: flex;
-justify-content: space-between;
+.CategoryFilters{
+    background-color: white;
+    padding: 3%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, 0.145);
+    cursor: pointer;
 }
-.section4Para2{
+.CategoryFilters:hover{
+    background-color: rgba(24, 106, 150, 0.155);
+    box-shadow: 1px 1px 10px 1px rgba(7, 28, 99, 0.364) ;
+}
+
+.section4 {
+    margin:3% 15%;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.section4Para1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4Para2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 200px;
+}
+.FocusStopWatch{
+    color: purple;
+        font-family: Dancing Script;
+font-weight: 900;
+font-size:30px;
+}
+.FocusStopWatchpara1{
+color: rgb(118, 118, 118);
+margin-top: 1%;
+}
+.TIME{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 4%;
+    color: rgb(43, 64, 91);
+}
+.divTimeControl{
+    display: flex;
+    gap: 5%;
+    width: 20%;
+    justify-content: center;
+}
+.timeControlBtn{
+    padding: 3%6%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(17, 143, 23, 0.504);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.timeControlBtn:hover{
+    border: 1px solid rgb(17, 85, 5);
+    box-shadow: 1px 1px 10px 1px rgba(14, 133, 24, 0.288);
+}
+.timeControlBtn2{
+    padding: 3%6%;
+    border-radius: 4px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.timeControlBtn2:hover{
+    border: 1px solid rgb(247, 248, 247);
+    box-shadow: 1px 1px 10px 1px rgba(4, 0, 0, 0.286);
+}
+.timeControlBtn3{
+    padding: 3%6%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(140, 13, 13, 0.504);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.timeControlBtn3:hover{
+    border: 1px solid rgb(165, 23, 23);
+    box-shadow: 1px 1px 10px 1px rgba(234, 15, 15, 0.296);
+}
+.TimerstatColor{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    padding: 0.5%1%;
+    border-radius: 7px;
+    font-weight: 900;
+}
+.TimerstatColor2{
+    background-color: rgba(71, 165, 42, 0.388);
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    padding: 0.5%1%;
+    border-radius: 7px;
+    font-weight: 900;
+}
+@media (min-width:320px) and (max-width:480px) {
+    .Section1 {
+    padding: 4%1%;
+}
+
+.Section1Para1 {
+    color: blue;
+    font-weight: 600;
+    font-family: poppins;
+    font-style: italic;
+}
+
+.Section1Counters {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin: 2% 0%;
+}
+
+.counter1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    padding: 4%0%;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.481);
+    padding: 3%;
+    border-radius: 10px;
+    color: gray;
+    background-color: white;
+}
+
+.counterNUM {
+    color: rgb(17, 53, 120);
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.Section2 {
+    margin: 2% 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.481);
+}
+
+.Section3 {
+    margin: 2% 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+.Section1Para2 {
+    font-family: Dancing Script;
+    font-weight: 900;
+    font-size: 70px;
+    margin: 2% 0%;
+}
+
+.Section1Para3 {
+    color: gray;
+}
+
+#root {
+    background-color: rgb(235, 241, 244);
+}
+
+.Section2Para1 {
+    font-weight: 800;
+
+    margin-bottom: 1%;
+    font-size: 30px;
+    color: purple;
+    font-family: Dancing Script;
+}
+
+.Section2Para2 {
+    color: gray;
+    margin-bottom: 3%;
+}
+
+.LabelTitle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.LabelTitle2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    gap: 2%;
+    margin-top: 3%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.sectionFormInputs {
+    height: 50px;
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.481);
+    margin-top: 1%;
+}
+
+.PriorityLabel {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.SectionFormBTN {
+    width: 50%;
+    color: rgb(10, 17, 100);
+    background-color: rgba(37, 125, 207, 0.527);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 15px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, 0.293);
+    
+}
+
+.SectionFormBTN:hover {
+    box-shadow: 1px 1px 10px 1px rgba(35, 109, 179, 0.481);
+}
+
+.Section3Para1 {
+    font-size: 30px;
+    color: purple;
+    font-weight: 800;
+    font-family: Dancing Script;
+    margin-bottom: 1%;
+    
+}
+
+.Section3Para2 {
+    color: gray;
+    margin-bottom: 3%;
+}
+
+.filteringDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FIlterBy {
+    display: flex;
+    justify-content: end;
+    gap: 10%;
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.367);
+    align-items: center;
+    padding: 0%3%;
+    border-radius: 10px;
+    
+}
+.CategoryFilters{
+    background-color: white;
+    padding: 3%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 255, 0.145);
+    cursor: pointer;
+}
+.CategoryFilters:hover{
+    background-color: rgba(24, 106, 150, 0.155);
+    box-shadow: 1px 1px 10px 1px rgba(7, 28, 99, 0.364) ;
+}
+
+.section4 {
+    margin:3% 2%;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.section4Para1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4Para2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.FocusStopWatch{
+    color: purple;
+        font-family: Dancing Script;
+font-weight: 900;
+font-size:30px;
+}
+.FocusStopWatchpara1{
+color: rgb(118, 118, 118);
+margin-top: 1%;
+}
+.TIME{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 4%;
+    color: rgb(43, 64, 91);
+}
+.divTimeControl{
+    display: flex;
+    gap: 5%;
+    width: 20%;
+    justify-content: center;
+}
+.timeControlBtn{
+    padding: 3%6%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(17, 143, 23, 0.504);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.timeControlBtn:hover{
+    border: 1px solid rgb(17, 85, 5);
+    box-shadow: 1px 1px 10px 1px rgba(14, 133, 24, 0.288);
+}
+.timeControlBtn2{
+    padding: 3%6%;
+    border-radius: 4px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.timeControlBtn2:hover{
+    border: 1px solid rgb(247, 248, 247);
+    box-shadow: 1px 1px 10px 1px rgba(4, 0, 0, 0.286);
+}
+.timeControlBtn3{
+    padding: 3%6%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(140, 13, 13, 0.504);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.timeControlBtn3:hover{
+    border: 1px solid rgb(165, 23, 23);
+    box-shadow: 1px 1px 10px 1px rgba(234, 15, 15, 0.296);
+}
+.TimerstatColor{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    padding: 0.5%1%;
+    border-radius: 7px;
+    font-weight: 900;
+}
+.TimerstatColor2{
+    background-color: rgba(71, 165, 42, 0.388);
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    padding: 0.5%1%;
+    border-radius: 7px;
+    font-weight: 900;
+}
 }

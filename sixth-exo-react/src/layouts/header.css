@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.theHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15%;
+    color: rgb(3, 61, 115);
+    border-bottom: 5px solid rgb(4, 84, 123);
+}
+
+.HeaderTitle {
+    font-family: Dancing Script;
+    font-weight: bolder;
+}
+.navBarLINKS{
+    display: flex;
+    gap: 10%;
+    width: 50%;
+    justify-content: end;
+
+
+}
+.links{
+    text-decoration: none;
+    color: rgb(3, 65, 151);
+    /* font-size: 20px; */
+    font-weight: 700;
+    border: 1px solid rgba(7, 81, 137, 0.168);
+    padding: 1%5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.links:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 255, 0.273);
+    background-color: rgba(36, 149, 229, 0.255);
+}
+@media (min-width:320px) and (max-width:480px) {
+    
+.theHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 1%;
+    color: rgb(3, 61, 115);
+    border-bottom: 5px solid rgb(4, 84, 123);
+}
+
+.HeaderTitle {
+    font-family: Dancing Script;
+    font-weight: 500;
+}
+.navBarLINKS{
+    display: flex;
+    gap: 5%;
+    width: 50%;
+    justify-content: end;
+
+
+}
+.links{
+    text-decoration: none;
+    color: rgb(3, 65, 151);
+    /* font-size: 20px; */
+    font-weight: 700;
+    border: 1px solid rgba(7, 81, 137, 0.168);
+    padding: 1%5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.links:hover{
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 255, 0.273);
+    background-color: rgba(36, 149, 229, 0.255);
+}
+}

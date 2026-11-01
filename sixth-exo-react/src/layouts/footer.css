@@ -1,0 +1,18 @@
+.thefooter{
+    /* background-color: rgb(163, 193, 221); */
+    border: 1px solid rgba(0, 0, 255, 0.153);
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+}
+@media (min-width:320px) and (max-width:480px) {
+    .thefooter{
+    border: 1px solid rgba(0, 0, 255, 0.153);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8%;
+    padding: 4%;
+}
+    
+}
