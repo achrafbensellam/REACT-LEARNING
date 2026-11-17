@@ -1,0 +1,66 @@
+.coinPicture{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(209, 179, 13, 0.326);
+}
+.coinPIcDiv{
+    display: flex;
+    gap: 1%;
+}
+.coinPic{
+    width: 20%;
+}
+.infodiv1{
+    display: flex;flex-direction: column;
+}
+.infodiv2{
+    font-size: 25px;
+
+}
+.contenaireDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10% 0%;
+    position: relative;
+}
+.contenaireDiv2{
+    width: 50%;
+    box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.405);
+    border-radius: 10px;
+    padding: 5% 2%;
+}
+.BTNgoBack{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: orangered;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 6px 2%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.BTNgoBack:hover{
+   box-shadow: 1px 1px 10px 1px rgb(102, 79, 8);
+}
+.infoDiv3{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(255, 255, 0, 0.096);
+    padding: 2%;
+    width: 25%;
+    line-height: 2rem;
+}
+.infoDiv3:hover{
+   transform: scale(1.05);
+    box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.401);
+
+}
+.infoDiv4{
+    display: flex;
+    gap: 2%;
+    margin-top: 2%;
+}

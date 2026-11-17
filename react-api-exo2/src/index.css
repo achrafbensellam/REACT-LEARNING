@@ -5,3 +5,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+#root{
+    background-color: rgb(5, 8, 32);
+    color: white;
+    
+}

@@ -1,0 +1,21 @@
+.coinsInformation{
+    width: 25%;
+    /* text-align: center; */
+}
+.coinsInformation1{
+    width: 5%;
+    text-align: center;
+}
+.coinsInformation2{
+    width: 10%;
+    text-align: center;
+}
+.detealsEye{
+    padding: 5px 0px;
+}
+.detealsEye:hover{
+    background-color: rgb(43, 56, 72);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(84, 84, 83, 0.362);
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,500&display=swap");
+.inputsDiv{
+    display: flex;
+    width: 100%;
+    gap: 5%;
+}
+.firstSection{
+    padding: 2% 5%;
+}
+.searchInput{
+    width: 70%;
+    background-color: rgb(32, 32, 81);
+    padding: 1%2%;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(223, 223, 230, 0.164);
+    color: white;
+}
+.theSelect{
+    width: 30%;
+    background-color: rgb(32, 32, 81);
+    padding: 1%2%;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(223, 223, 230, 0.164);
+    color: white;
+}
+.gidesDiv{
+    display: flex;
+    width: 100%;
+    gap: 3%;
+    margin-top: 2%;
+}
+.CoinsCradsDiv{
+    background-color: rgb(10, 25, 46);
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 1%;
+}
+.gidesDivTitles{
+    font-weight: 700;
+    color: gray;
+    font-family: Roboto;
+}
