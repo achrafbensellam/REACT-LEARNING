@@ -31,6 +31,18 @@
     gap: 3%;
     margin-top: 2%;
 }
+.gidesDiv2{
+    display: flex;
+    width: 100%;
+    gap: 3%;
+    margin-top: 1%;
+    align-items: center;
+    border-radius: 5px;
+}
+.gidesDiv2:hover{
+    background-color: rgb(102, 117, 111);
+
+}
 .CoinsCradsDiv{
     background-color: rgb(10, 25, 46);
     margin-top: 3%;

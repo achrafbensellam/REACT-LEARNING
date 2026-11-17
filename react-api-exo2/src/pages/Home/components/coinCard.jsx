@@ -24,7 +24,7 @@ function Coin(props) {
     return (
         <>
         {SearchByName.map((coin)=>(
-            <div className='gidesDiv' key={coin.id}>
+            <div className='gidesDiv2' key={coin.id}>
                 <p className='coinsInformation1'>{coin.rank}</p>
                 <p className='coinsInformation'>{coin.name}</p>
                 <p className='coinsInformation2'>{coin.symbol}</p>
